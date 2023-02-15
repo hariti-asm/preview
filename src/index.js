@@ -2,11 +2,11 @@
 import "./index.css";
 // import App from "./App";
 
-import React, { useState } from "https://cdn.skypack.dev/react@17.0.1";
-import ReactDOM from "https://cdn.skypack.dev/react-dom@17.0.1";
-import classnames from "https://cdn.skypack.dev/classnames@2.2.6";
-import marked from "https://cdn.skypack.dev/marked@2.0.0";
-import dompurify from "https://cdn.skypack.dev/dompurify@2.2.6";
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import classnames from "classnames";
+import marked from "marked";
+import dompurify from "dompurify";
 
 // marked.setOptions({
 //   breaks: true,
