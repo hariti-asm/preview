@@ -5,7 +5,7 @@ import "./index.css";
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import classnames from "classnames";
-import marked from "marked";
+import { marked } from "marked";
 import dompurify from "dompurify";
 
 // marked.setOptions({
